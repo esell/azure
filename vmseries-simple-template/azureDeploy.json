@@ -68,13 +68,6 @@
                 "description": "Azure VM size for VM-Series"
             }
         },
-        "baseUrl" : {
-		"type" : "string",
-		"metadata": {
-			"artifactsBaseUrl": ""
-		},
-		"defaultValue": "https://raw.githubusercontent.com/saurabhtrekker/UI1/master"
-	},
     "virtualNetworkName": {
       "type": "string",
       "metadata": {
