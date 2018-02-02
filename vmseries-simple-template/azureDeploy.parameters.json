@@ -27,10 +27,10 @@
             "value": "Standard_D3"
         },
         "virtualNetworkName": {
-            "value": "panVnet"
+            "value": "palo-test-net"
         },
         "virtualNetworkAddressPrefix": {
-            "value": "192.168.0.0/16"
+            "value": "10.0.0.0/16"
         },
         "subnet0Name": {
             "value": "Mgmt"
@@ -42,22 +42,22 @@
             "value": "Trust"
         },
         "subnet0Prefix": {
-            "value": "192.168.0.0/24"
+            "value": "10.0.2.0/24"
         },
         "subnet1Prefix": {
-            "value": "192.168.1.0/24"
+            "value": "10.0.3.0/24"
         },
         "subnet2Prefix": {
-            "value": "192.168.2.0/24"
+            "value": "10.0.4.0/24"
         },
         "subnet0StartAddress": {
-            "value": "192.168.0.4"
+            "value": "10.0.2.4"
         },
         "subnet1StartAddress": {
-            "value": "192.168.1.4"
+            "value": "10.0.3.4"
         },
         "subnet2StartAddress": {
-            "value": "192.168.2.4"
+            "value": "10.0.4.4"
         }
     }
 }
